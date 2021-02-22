@@ -32,7 +32,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * 在整个spring容器被初始化的时候会调用到AutoConfigurationImportSelector中的selectImports方法,具体是在applicationde refreshf方法中的invokeBeanFactoryPostProcessors这一步去解析的import
  *
+ *springBoot1.0：servlet stack  Web Mvc
  *
+ * springBoot2.0 Reactive stack webFlux
+ *
+ * 组件自动装配
+ *
+ * 外部化配置
+ *
+ * 嵌入式容器
+ *
+ * Starter
  */
 public class Application {
 

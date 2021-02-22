@@ -1,0 +1,3 @@
+# ×Ô¶¯×°Åä
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xz.deep.conf.HelloWorldAutoConfiguration
