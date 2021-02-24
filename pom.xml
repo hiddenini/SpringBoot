@@ -12,6 +12,7 @@
         <module>autoconfigure</module>
         <module>overview</module>
         <module>spring-application</module>
+        <module>spring-webmvc</module>
     </modules>
 
     <!-- 公共spring-boot配置，下面依赖jar文件不用在写版本号 -->
@@ -19,17 +20,8 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.2.RELEASE</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
 
-    <dependencies>
-        <!-- web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-
-    </dependencies>
 </project>
