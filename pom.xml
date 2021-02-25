@@ -13,6 +13,7 @@
         <module>overview</module>
         <module>spring-application</module>
         <module>spring-webmvc</module>
+        <module>springboot-webmvc</module>
     </modules>
 
     <!-- 公共spring-boot配置，下面依赖jar文件不用在写版本号 -->

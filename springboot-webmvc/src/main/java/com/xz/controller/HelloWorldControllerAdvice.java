@@ -1,21 +1,15 @@
 package com.xz.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * HelloWorld {@link Controller}
+ * {@link HelloWorldController} 通知
+ *
  */
-@Controller
-public class HelloWorldController {
+@ControllerAdvice(assignableTypes = HelloWorldController.class)
+public class HelloWorldControllerAdvice {
 
-    @RequestMapping("")
-    public String index(@RequestParam int value, Model model) {
-        return "index";
-    }
-
-/*
     @ModelAttribute("acceptLanguage")
     public String acceptLanguage(@RequestHeader("Accept-Language") String acceptLanguage){
         return acceptLanguage;
@@ -30,6 +24,10 @@ public class HelloWorldController {
     public String message(){
         return "Hello,World";
     }
-*/
+
+    @ExceptionHandler(Throwable.class)
+    public ResponseEntity<String> onException(Throwable throwable) {
+        return ResponseEntity.ok(throwable.getMessage());
+    }
 
 }
