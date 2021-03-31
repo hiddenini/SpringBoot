@@ -1,4 +1,4 @@
-package com.xz.deep.bootstarp;
+package com.xz.bootstarp;
 
 import com.xz.deep.anno.FirstComponent;
 import org.springframework.boot.WebApplicationType;

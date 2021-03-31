@@ -1,4 +1,4 @@
-package com.xz.deep.bootstarp;
+package com.xz.bootstarp;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

@@ -1,10 +1,8 @@
-package com.xz.deep.bootstarp;
+package com.xz.bootstarp;
 
 
 import com.xz.deep.condition.ConditionalOnSystemProperty;
-import com.xz.deep.service.CalculateService;
 import org.springframework.boot.WebApplicationType;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
